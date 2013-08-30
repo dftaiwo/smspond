@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.gdg.smspond" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>SMSPond</name>
+    <description>
+        An app for sending SMS via Bulk Messaging Platforms
+    </description>
+    <author email="team@gdglagos.com" href="http://gdglagos.com">
+        GDGLagos
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="true" />
+    
+</widget>

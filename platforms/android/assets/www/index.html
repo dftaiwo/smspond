@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="utf-8" />
+                <meta name="format-detection" content="telephone=no" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+                <link rel="stylesheet" type="text/css" href="css/smspond.css" />
+                <script type="text/javascript" src="js/zepto.min.js"></script>
+                <script>var jQuery = $;</script>
+
+                <script type="text/javascript" src="js/transparency.js"></script>
+                <script type="text/javascript" src="js/smspond.js"></script>
+                <title>SMSPond</title>
+        </head>
+        <body>
+                <header>
+                <h1>
+                        <a href="#dashboard">
+                                 SMSPond
+                        </a>
+                        <span id="navLinks">
+                        
+                        <a href="#dashboard" id="homeLink" class="btn-navbar">
+                                <span class="icon-bar "></span>
+                                <span class="icon-bar "></span>
+                                <span class="icon-bar "></span>
+                        </a>
+                        </span>
+                        <span class="clear"></span>
+                </h1>
+                </header>
+                <div id="wrapper">
+                        <div id="dashboard" data-role="view">
+                                <ul class="icons">
+                                        <li>
+                                                <a href="#sendSms">
+                                                        Compose SMS
+                                                </a>
+                                        </li>
+                                        <li>
+                                                <a href="#creditTransfer">
+                                                        Credit Transfer
+                                                </a>
+                                        </li>
+                                        <li>
+                                                <a href="#logout" onclick="return logout();">
+                                                        Logout
+                                                </a>
+                                        </li>
+                                        <li>
+                                                <a href="#about">
+                                                        About
+                                                </a>
+                                        </li>
+                                        
+                                        
+                                </ul>
+                                
+                                
+                         </div>
+                        <div id="loginPage" data-role="view">
+                                 <h2>Login</h2>
+                                 <div class="loadingMsg hidden">
+                                         Loading... Please wait...
+                                 </div>
+                                <form action="#"  class="form" onsubmit=" return tryLogin();" id="loginForm">
+                                <label for="username">Username</label>
+                                <input  class="usernameHolder" type="email" placeholder="Email Address" name="email" id="username" required  value="dftaiwo@gmail.com"/>
+                                <input   class="passwordHolder" type="password" placeholder="Password" name="password" id="password" required value="wisdom"/>
+                                <br />
+                                    <input type="submit" name="submitButton" class="submitButton" id="loginButton" value="Log In" />
+                                    
+                                </form>
+                                 
+                        </div>
+                        <div id="sendSms" data-role="view">
+                                 <h2>Send SMS</h2>
+                                <form action="#sendSms"  class="form" onsubmit=" return sendSms();" id="smsForm">
+                                        <label for="recipients">Recipients</label>
+                                        <input type="text" placeholder="Mobile Number e.g 08023909799" name="recipients" id="recipients" required  value="08023909799"/>
+                                        <input type="hidden" name="email" class="usernameHolder" />
+                                        <input type="hidden" name="password" class="passwordHolder" />
+                                        <label for="message">Message</label>
+                                        <textarea placeholder="SMS Message" name="message" id="message"  required ></textarea>
+                                        <br />
+                                        <label for="senderId">Sender ID <span>Max 11 characters</span></label>
+                                        <input name="sender" type="text" placeholder="" class="senderIdHolder" required  id="senderId" maxlength="11"/>
+
+                                        <div class="loadingMsg hidden">
+                                         Sending... Please wait...
+                                        </div>
+                                        <br />
+                                        <input type="submit" name="submitButton" class="submitButton" id="loginButton" value="Send Message" />
+                                </form>
+                        </div>
+                        <div id="about" data-role="view">
+                                This is a basic demonstration of an HTML5 based app
+                        </div>
+                </div>
+        </body>
+</html>
