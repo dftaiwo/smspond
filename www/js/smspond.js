@@ -1,4 +1,6 @@
-var serverUrl = 'http://sms.initsng.com/http/';
+
+var serverUrl = 'http://sms.varsoftng.com/http/';
+//var serverUrl = 'http://sms.initsng.com/http/';
 //var serverUrl = 'http://localhost/sms_proxy.php/';
 var isBlackberry = false;
 var activeView = '#dashboard';
