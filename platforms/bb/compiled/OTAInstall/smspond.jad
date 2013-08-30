@@ -1,12 +1,12 @@
-RIM-COD-SHA1-9: 43 18 6a 26 26 b0 8e 9d 67 ce c4 1d e6 62 f2 06 81 da ca 8a
-RIM-COD-SHA1-8: 96 f3 be bc 5e 2c 62 ea 29 16 67 bd d6 68 e2 e3 0b f0 f2 26
-RIM-COD-SHA1-7: 76 ac 5a 86 14 95 2e 5e 40 44 79 fd 49 86 a7 41 a0 33 3d a3
-RIM-COD-SHA1-6: 6f 08 a8 36 d2 0d 3c e6 42 42 45 5d 4f 21 7d c9 d1 57 30 7c
-RIM-COD-SHA1-5: be 95 b8 2b f9 8a a0 a0 2d 85 9e ba 06 e0 fb 08 14 7e 1a d3
-RIM-COD-SHA1-4: db f2 59 d9 90 bb 68 08 b6 c2 6d 1e 19 86 a8 1f 82 aa 01 3a
-RIM-COD-SHA1-3: 52 f1 f0 f9 8d ea 29 5a 99 7f 4f e5 48 bd 71 40 9b 27 23 d0
-RIM-COD-SHA1-2: 9f 70 7b 9e 1c a8 dd 3a e8 a2 19 9f ec d5 6b 1f 6d bd c4 91
-RIM-COD-SHA1-1: ec fe 72 07 07 24 f8 78 9c 26 7d 63 f4 d7 9f dc 7d 6e 2f 53
+RIM-COD-SHA1-9: d9 1b 4b 2c 6d a9 ab 1c 65 16 1f 16 be ee 3e 6b 31 dd 55 15
+RIM-COD-SHA1-8: f7 00 1c 4e e2 3c d4 9a 96 98 f1 33 d6 c7 44 e2 0a 6b f6 17
+RIM-COD-SHA1-7: 5e e4 6b 3d 9d e5 97 83 1b 3d d6 11 0e 11 8e 67 f0 f0 c1 20
+RIM-COD-SHA1-6: 18 18 e3 88 cb 44 d0 eb 84 2f 70 ac e8 3b a9 10 1f 46 fe 93
+RIM-COD-SHA1-5: b8 91 65 26 f0 24 aa 5d 32 64 15 3b a0 74 38 96 97 02 7d 93
+RIM-COD-SHA1-4: 1b 7c 1d 8e 83 78 91 60 90 60 27 95 65 fb a0 0e 3f e3 cd 05
+RIM-COD-SHA1-3: e2 61 b6 34 23 40 f2 36 59 47 c1 9b 65 af 67 2f a2 5b 34 1b
+RIM-COD-SHA1-2: 13 ca 2f b2 92 2b 67 ae af 0e f8 63 9c ce 54 57 26 82 e3 7b
+RIM-COD-SHA1-1: 20 d0 0a e0 d8 f2 ac 0b 8b ef d8 a5 ef e4 d4 73 32 2b b8 b6
 RIM-COD-Size-20: 24376
 RIM-COD-URL-19: smspond-19.cod
 RIM-COD-URL-18: smspond-18.cod
@@ -33,41 +33,41 @@ RIM-COD-Size-16: 48436
 RIM-COD-Size-15: 54852
 RIM-COD-Size-14: 49968
 RIM-COD-Size-13: 48344
-RIM-COD-Size-12: 55908
+RIM-COD-Size-12: 55932
 RIM-COD-Size-11: 54396
 RIM-COD-Size-10: 55752
 MIDlet-Version: 1.0.0.0
 MicroEdition-Profile: MIDP-2.0
-RIM-COD-SHA1-20: 51 d6 ad e4 eb 03 fe df 8c 30 71 0b 07 a4 b0 47 cb 3d 67 1e
+RIM-COD-SHA1-20: 06 88 0a 5b 88 35 87 26 3c 24 66 cb 31 ef 6c cd cf c5 59 48
 RIM-COD-URL: smspond.cod
-RIM-COD-Creation-Time: 1377881806
+RIM-COD-Creation-Time: 1377886867
 MicroEdition-Configuration: CLDC-1.1
 MIDlet-Jar-URL: smspond.jar
-RIM-COD-SHA1-19: ce e9 35 d7 9c 35 0d 48 1b 5a 2e 7f e5 30 89 58 a7 31 55 db
-RIM-COD-SHA1-18: 57 4b 5e eb c7 95 3b 9b e5 39 00 5a 9d a2 35 d1 df 00 93 6c
-RIM-COD-SHA1-17: 26 fd f9 fc f4 23 4c 38 67 c6 18 e1 b1 c1 52 8f d9 25 47 8e
-RIM-COD-SHA1-16: 3c 02 3b 09 ed bb 59 6c e5 f4 4d 5d d5 f2 59 2c 3a 32 1d 60
-RIM-COD-SHA1-15: f1 43 0e 76 6b ce 61 65 03 a0 31 a7 f9 4d 94 80 40 bb 5e 2f
-RIM-COD-SHA1-14: 0f 55 89 76 94 cf a1 50 2b 7b 67 99 55 55 f1 64 2b df 5c 18
-RIM-COD-SHA1-13: df 14 ad 69 80 73 30 47 98 60 06 26 bb 75 ad c7 a7 c5 38 4b
-RIM-COD-SHA1-12: 0f e0 ad 05 d2 e2 04 ad 26 ee ab c6 78 8b e5 86 1c 0f 16 4e
+RIM-COD-SHA1-19: 0e 76 b6 8f 6b 19 c9 9a a6 18 7f 24 eb d0 cf 9a 14 7f 4f 07
+RIM-COD-SHA1-18: b3 0b 7d 96 b4 69 8a e2 d2 d3 3f b1 42 40 dd 74 49 55 53 2e
+RIM-COD-SHA1-17: 74 66 1c 03 5f c2 7d 6c ef fa 58 b2 0f 48 09 5c df da d8 83
+RIM-COD-SHA1-16: 17 75 16 c6 b9 4e e1 fd a7 15 6d 11 6c 6f 6d c9 48 7b bb fe
+RIM-COD-SHA1-15: be 19 dc d2 16 da 77 2e 7e 4e 99 06 af d5 1a 78 2b a4 cd 47
+RIM-COD-SHA1-14: 5a 77 29 88 02 05 d5 ba bd 91 a2 1a 73 e8 b7 e9 b9 b4 2c 2f
+RIM-COD-SHA1-13: 7a 19 2e 55 8e 4c 30 4e 2c fc e2 94 e5 b2 60 7e 0d d1 3e cd
+RIM-COD-SHA1-12: cb bf 14 da 37 74 1f 47 e4 b1 41 7e 9b 20 c4 58 a6 74 a6 04
 RIM-COD-Size-9: 49460
-RIM-COD-SHA1-11: 6d 59 92 43 fd c1 2d 7c 0c 0b 6b 23 8b 26 73 e0 33 3c c0 93
+RIM-COD-SHA1-11: c3 a0 e3 9f 1b 53 10 18 66 42 01 eb e6 f8 d5 32 80 5d 3b 68
 RIM-COD-Size-8: 47936
-RIM-COD-SHA1-10: 24 98 4b 83 a2 34 e2 e8 ec b0 a4 87 35 c0 93 e2 8a df 64 f3
+RIM-COD-SHA1-10: 04 90 5a fa d6 65 34 81 dc 57 7d b7 ea 9f 7b e9 88 23 71 2b
 RIM-COD-Size-7: 45828
 MIDlet-Description: SMSPond
 RIM-COD-Size-6: 61056
 RIM-COD-Size-5: 43904
-RIM-COD-Size-4: 54860
+RIM-COD-Size-4: 54864
 RIM-COD-Size-3: 46940
 RIM-COD-Size-2: 68876
 RIM-COD-Size-1: 75388
 MIDlet-1: SMSPond,img/logo.png,rim:foreground;WIDGET;
 MIDlet-Name: SMSPond
-RIM-COD-SHA1: b8 02 1b 8d e0 8f 7f 5f b3 9d 3d 61 1d e3 85 db ef f8 68 65
+RIM-COD-SHA1: 07 74 2c 27 4a e0 c3 cf 37 88 81 98 83 b8 80 cc c8 5e f7 9c
 RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_bb_web_jse_api,net_rim_xml_org,net_rim_bb_browser_field2_api,net_rim_os,net_rim_bbapi_push,net_rim_bbapi_messagelist,net_rim_pdap,net_rim_bbapi_mailv2,net_rim_bbapi_phone,net_rim_bbapi_invoke,net_rim_bbapi_browser,net_rim_networkapi,net_rim_bb_browser_field_api,net_rim_xml
-MIDlet-Jar-Size: 1456199
+MIDlet-Jar-Size: 1456229
 RIM-COD-URL-9: smspond-9.cod
 RIM-COD-URL-8: smspond-8.cod
 RIM-COD-URL-7: smspond-7.cod

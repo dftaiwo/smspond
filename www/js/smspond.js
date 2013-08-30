@@ -133,7 +133,7 @@ function sendToServer(urlToCall, postData, onResponse, onError) {
                 data: postData,
                 type: "GET",
                 cache: false,
-                timeout: 0,
+                timeout: 600000,
 //                dataType: "jsonp",
                 crossDomain: true,
                 success: function(data) {

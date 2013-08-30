@@ -36,7 +36,7 @@
         <access subdomains="true" uri="http://sms.initsng.com/" />
         
         <access uri ="*"/>
-        <rim:connection timeout="25000">
+        <rim:connection timeout="600000">
                 <id>TCP_WIFI</id>
                 <id>TCP_CELLULAR</id>
                 <id>BIS-B</id>
