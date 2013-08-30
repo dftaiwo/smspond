@@ -3,7 +3,7 @@
         <head>
                 <meta charset="utf-8" />
                 <meta name="format-detection" content="telephone=no" />
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+                    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
                 <link rel="stylesheet" type="text/css" href="css/smspond.css" />
                 <script type="text/javascript" src="js/zepto.min.js"></script>
                 <script>var jQuery = $;</script>
@@ -62,11 +62,13 @@
                                  <h2>Login</h2>
                                  <div class="loadingMsg hidden">
                                          Loading... Please wait...
+                                         <br />
+                                         <img src="img/loading.gif" />
                                  </div>
                                 <form action="#"  class="form" onsubmit=" return tryLogin();" id="loginForm">
                                 <label for="username">Username</label>
-                                <input  class="usernameHolder" type="email" placeholder="Email Address" name="email" id="username" required  value="dftaiwo@gmail.com"/>
-                                <input   class="passwordHolder" type="password" placeholder="Password" name="password" id="password" required value="wisdom"/>
+                                <input  class="usernameHolder" type="email" placeholder="Email Address" name="email" id="username" required  value=""/>
+                                <input   class="passwordHolder" type="password" placeholder="Password" name="password" id="password" required value=""/>
                                 <br />
                                     <input type="submit" name="submitButton" class="submitButton" id="loginButton" value="Log In" />
                                     
@@ -87,14 +89,20 @@
                                         <input name="sender" type="text" placeholder="" class="senderIdHolder" required  id="senderId" maxlength="11"/>
 
                                         <div class="loadingMsg hidden">
-                                         Sending... Please wait...
+                                         Sending... Please wait...<br />
+                                         <img src="img/loading.gif" />
                                         </div>
                                         <br />
                                         <input type="submit" name="submitButton" class="submitButton" id="loginButton" value="Send Message" />
                                 </form>
                         </div>
                         <div id="about" data-role="view">
-                                This is a basic demonstration of an HTML5 based app
+                                This is a basic demonstration of a mobile app built using HTML5.
+                        </div>
+                        <div id="creditTransfer" data-role="view">
+                                <h2>Credit Transfer</h2>
+                                YET TO BE BUILT
+                                        <br />
                         </div>
                 </div>
         </body>
