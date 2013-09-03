@@ -288,12 +288,10 @@ function tryRegister() {
         });
 
         if (!validateEmail($('#reg_username').val())) {
-                showMessage("Invalid Email Address. Please check and try again");
-                return false;
+                errors.push("Invalid Email Address. Please check and try again");
         }
-        if (isNaN($('#reg_mobile').val()) || $('#reg_mobile').val().length != 11) {
-                showMessage("Invalid Mobile Number. It should be like 080XXXXXXXX Please check and try again");
-                return false;
+        if (isNaN($('#reg_mobile').val()) || $('#reg_mobile').val().length != 11 || $('#reg_mobile').val().substr(0,2)!='08') {
+                errors.push("Invalid Mobile Number. It should be like 080XXXXXXXX Please check and try again");
         }
 
 

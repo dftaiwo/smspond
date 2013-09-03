@@ -30,6 +30,23 @@
                 </h1>
                 </header>
                 <div id="wrapper">
+                        
+                        <div id="loginPage" data-role="view">
+                                 <h2>Login</h2>
+                                 <div class="loadingMsg hidden">
+                                         Loading... Please wait...
+                                         <br />
+                                         <img src="img/loading.gif" />
+                                 </div>
+                                <form action="#"  class="form" onsubmit=" return tryLogin();" id="loginForm">
+                                <label for="username">Username</label>
+                                <input  class="usernameHolder" type="email" placeholder="Email Address" name="email" id="username" required  value=""/>
+                                <input   class="passwordHolder" type="password" placeholder="Password" name="password" id="password" required value=""/>
+                                <br />
+                                    <input type="submit" name="submitButton" class="submitButton" id="loginButton" value="Log In" />
+                                    <input type="button" class="submitButton" value="Register Here" onclick="goToPage('#registrationPage');" />
+                                </form>
+                        </div>
                         <div id="dashboard" data-role="view">
                                 <ul class="icons">
                                         <li>
@@ -58,19 +75,31 @@
                                 
                                 
                          </div>
-                        <div id="loginPage" data-role="view">
-                                 <h2>Login</h2>
+                        <div id="registrationPage" data-role="view">
+                                 <h2>Registration</h2>
                                  <div class="loadingMsg hidden">
                                          Loading... Please wait...
                                          <br />
                                          <img src="img/loading.gif" />
                                  </div>
-                                <form action="#"  class="form" onsubmit=" return tryLogin();" id="loginForm">
-                                <label for="username">Username</label>
-                                <input  class="usernameHolder" type="email" placeholder="Email Address" name="email" id="username" required  value=""/>
-                                <input   class="passwordHolder" type="password" placeholder="Password" name="password" id="password" required value=""/>
+                                <form action="#"  class="form" onsubmit=" return tryRegister();" id="registrationForm">
+                                <label for="reg_username">Email Address</label>
+                                <input type="email" placeholder="Email Address" name="email" id="reg_username" required  value=""/>
+                                <label for="reg_password">Password</label>
+                                <input  type="text" placeholder="Password" name="password" id="reg_password" required value=""/>
+                                
+                                
+                                <label for="reg_firstname">First Name</label>
+                                <input    type="text" placeholder="First Name" name="firstname" id="reg_firstname" required value=""/>
+                                
+                                <label for="reg_lastname">Last Name</label>
+                                <input    type="text" placeholder="Last Name" name="lastname" id="reg_lastname" required value=""/>
+                                
+                                <label for="reg_mobile">Mobile</label>
+                                <input    type="text" placeholder="Mobile Number e.g 08012345600" name="mobile" id="reg_mobile" required value=""/>
+                                
                                 <br />
-                                    <input type="submit" name="submitButton" class="submitButton" id="loginButton" value="Log In" />
+                                    <input type="submit" name="submitButton" class="submitButton" id="registerButton" value="Register" />
                                     
                                 </form>
                                  
@@ -79,7 +108,7 @@
                                  <h2>Send SMS</h2>
                                 <form action="#sendSms"  class="form" onsubmit=" return sendSms();" id="smsForm">
                                         <label for="recipients">Recipients</label>
-                                        <input type="text" placeholder="Mobile Number e.g 08023909799" name="recipients" id="recipients" required  value="08023909799"/>
+                                        <input type="text" placeholder="Mobile Number e.g 08023909799" name="recipients" id="recipients" required  value=""/>
                                         <input type="hidden" name="email" class="usernameHolder" />
                                         <input type="hidden" name="password" class="passwordHolder" />
                                         <label for="message">Message</label>
@@ -101,7 +130,7 @@
                         </div>
                         <div id="creditTransfer" data-role="view">
                                 <h2>Credit Transfer</h2>
-                                YET TO BE BUILT
+                                YET TO BE BUILT.
                                         <br />
                         </div>
                 </div>

@@ -80,7 +80,6 @@ div[data-role="view"]{
 
 }
 div[data-role="view"]:first-of-type{
-        display:block;
 }
 
 header{
